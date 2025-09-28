@@ -1,0 +1,188 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+/* banner */
+.banner-container {
+  display: flex;
+  align-items: center;
+  background-image: url("../assets/Hero-bg.png");
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #4e47ff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.signup {
+  background: #4e47ff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.banner-content {
+  width: 998px;
+  height: 582px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-content h2 {
+  font-size: 65px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 160px;
+  margin-bottom: 20px;
+}
+
+.banner-content button {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 40px;
+  color: white;
+  width: 208px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #4e47ff;
+  cursor: pointer;
+}
+
+/* card */
+.main {
+  background-color: #faf9fd;
+}
+.all-courses {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+.card-content {
+  padding: 15px;
+}
+
+.card-tag {
+  color: #ff5e00;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-content h3 {
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: black;
+  margin: 8px 0;
+}
+
+.card-content p {
+  font-weight: bold;
+  margin: 10px 0;
+}
+.card-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount-btn {
+  border-color: #ff7e31;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.discount-btn:hover {
+  background: #ff7e31;
+  color: white;
+  transition-duration: 500ms;
+}
+
+/* category */
+.category-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.category-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.category-img p {
+  font-size: small;
+}
+
+.category-card img {
+  width: 100%;
+}
+
+.category-card a {
+  text-decoration: none;
+  color: #0073e6;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.single-image img {
+  width: 100%;
+}
+
+.category-kit-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.category-kit-img p{
+    font-size: small;
+}
