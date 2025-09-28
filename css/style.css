@@ -18,9 +18,7 @@ body {
 }
 
 .logo {
-  color: #4e47ff;
-  font-weight: 700;
-  font-size: 20px;
+ width: 120px;
 }
 
 .signup {
